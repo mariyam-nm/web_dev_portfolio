@@ -1,2 +1,2 @@
 # web_dev_portfolio
-This is the repository I will use to build my web development portfolio
+This is the repository I will use to build my web development portfolio. It includes a blurb about me, the attachments to my work, and ways to contact me. Currently, the published page includes a placeholder text and placeholder images for my blurb and my work - this will be updated as I progress through my web development journey. As of now, you can view my travel blog by clicking on the 'travel blog' image under my work so view my first project.
