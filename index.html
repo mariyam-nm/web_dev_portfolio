@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariyam's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #f8fbfe;">
+    <header>
+        <div class="header-content">
+            <div class="header-text">Welcome to Mariyam's Portfolio Page</div>
+            <nav>
+                <ul>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm Mariyam. I create and design <br> web pages.</h1>
+        </div>
+    </section>
+
+    <section id="aboutme" class="sub-heading">
+        <h2>About Me</h2>
+        <hr>
+        <div class="text-container">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus sapien at lectus dictum fringilla. In hac habitasse platea dictumst. Vestibulum justo dui, porttitor eu neque a, cursus bibendum velit. Quisque ac scelerisque sapien, eget tincidunt tortor. Etiam condimentum quam at molestie efficitur. Quisque tellus nunc, volutpat nec consequat ut, pulvinar sit amet orci. In mattis velit ornare urna convallis, nec viverra erat efficitur. Pellentesque sed turpis rhoncus, semper quam quis, egestas dui. Suspendisse potenti. Curabitur ornare diam augue, nec tristique mi condimentum ut. Sed tincidunt vel augue ac hendrerit.</p>
+        </div>
+        <div class="aboutme-image">
+            <img src="for_website.JPG" alt="A picture of me">
+        </div>
+    </section>
+    <section id="work" class="sub-heading">
+        <h2>Work</h2>
+        <hr>
+        <div class="flex-container">
+            <div class="gallery-item">
+                <img src="test1.jpeg" alt="Image 1">
+                <div class="image-overlay">
+                    <h3 class="overlay-heading">Travel Blog</h3>
+                    <p class="overlay-paragraph">HTML/CSS</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="test2.jpeg" alt="Image 2">
+                <div class="image-overlay">
+                    <h3 class="overlay-heading">Application 2</h3>
+                    <p class="overlay-paragraph">Javascript/CSS</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="test3.jpeg" alt="Image 3">
+                <div class="image-overlay">
+                    <h3 class="overlay-heading">Application 3</h3>
+                    <p class="overlay-paragraph">Tools used</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="test4.jpeg" alt="Image 4">
+                <div class="image-overlay">
+                    <h3 class="overlay-heading">Application 4</h3>
+                    <p class="overlay-paragraph">Tools used</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contactme" class="sub-heading">
+        <h2>Contact Me</h2>
+        <hr>
+        <p>Let's connect! Please fill the form below to start a conversation or see my contact details on the right.</p>
+        <div class="contact-container">
+            <div class="contact-box">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="apikey" value="fdbe8064-f9f3-4d9c-b0fa-2f95aa5e07c6">
+                    <label for="name" class="small-text">Name:</label>
+                    <br>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email" class="small-text">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="message" class="small-text">Message:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="4"></textarea><br><br>
+                    <button type="submit" value="Send">Send</button>
+                    <input type="hidden" name="redirect" value="https://mariyam-nm.github.io/my_first_assignment/thanks.html">
+                </form>
+            </div>
+            <div class="contact-info">
+                <ul>
+                    <p class="small-text">Phone: <a href="#">222.222.2222</a></p>
+                    <p class="small-text">Email: <a href="#">mariyammohammed11@gmail.com</a></p>
+                    <p class="small-text">Github: <a href="#">mariyam-nm</a></p>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
