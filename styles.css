@@ -131,9 +131,9 @@ h2 {
     background-color: #114d8e;
     bottom: 5px;
     left: 0;
-    width: 30%;
+    width: 35%;
     height: 15%;
-    padding: 10px;
+    padding: 6px;
     box-sizing: border-box;
     transition: opacity 0.3s ease, transform 0.3s ease;
     color: white;
